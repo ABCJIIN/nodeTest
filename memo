@@ -1,0 +1,7 @@
+/* prettier - 코드 예쁘게 정리 해주는 것
+eslint
+
+props (부모 -> 자식 )
+state (해당 컴포넌트 안에서)
+1. 클래스형(setState)
+2. 함수형(userState) -> hooks */

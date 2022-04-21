@@ -1,11 +1,10 @@
-import StartClass from "./components/StartClass";
-import StartFunc from "./components/Startfunc";
-
+// import MyComponent from './components/MyComponent';
+// import MyComponentFunc from './components/MyComponentFunc';
+// import Counter from './components/Counter';
+// import Says from './components/Says';
+import EventPractice from './components/EventPractice';
 function App() {
-  return (
-    <StartClass />,
-    <StartFunc />
-  );
+  return <EventPractice />;
 }
 
 export default App;
