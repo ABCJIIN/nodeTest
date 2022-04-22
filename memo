@@ -5,3 +5,29 @@ props (부모 -> 자식 )
 state (해당 컴포넌트 안에서)
 1. 클래스형(setState)
 2. 함수형(userState) -> hooks */
+
+Dom을 직접적으로 건드려야 할 때
+(state로 해결할 수 없는 문제들)
+1.특정 Input에 포커스를 주기 위해
+2.스크롤 박스 조작을 위해
+3.canvas 요소에 그림 그리기 등..
+
+ref사용 방법
+1.콜백 함수
+2.createRef(v16.3이후)
+
+-
+
+ref 컴포넌트에 달수있다.
+-> 내부에 있는 돔을 외부에서 사용할 때
+
+class ref
+함수형 컴포넌트 useRef
+
+-
+
+컴포넌트가 업데이트 될 떄
+1.prop가 바뀔때
+2.state가 바뀔때
+3.부모 컴포넌트가 리렌더링 될 때
+4.this.forceUpdate로 강제로 렌더링
